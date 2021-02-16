@@ -7,8 +7,8 @@
     - Linux Consumption (Serverless) plan
 
 1. Install tools needed for deployment
-    - Azure CLI
-    - Azure Functions Core Tools
+    - [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli)
+    - [Azure Functions Core Tools](https://github.com/Azure/azure-functions-core-tools/blob/dev/README.md)
 
 1. Login to Azure CLI and select the subscription to use
     ```bash
