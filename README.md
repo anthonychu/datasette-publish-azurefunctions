@@ -6,6 +6,16 @@
     - Python 3.8
     - Linux Consumption (Serverless) plan
 
+1. Install tools needed for deployment
+    - Azure CLI
+    - Azure Functions Core Tools
+
+1. Login to Azure CLI and select the subscription to use
+    ```bash
+    az login
+    az account set -s <subscription_to_use>
+    ```
+
 1. Install this plugin
     ```bash
     python -m pip install git+https://github.com/anthonychu/datasette-publish-azurefunctions
